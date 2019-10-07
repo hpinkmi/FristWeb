@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+    int i = 20;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <table border="1">
+            @for (i = 1; i < 100000; i= i * 10)
+            {
+            <tr>
+                <td><b>Hello @i </b></td>
+                <td><text>not bolded</text></td>
+            </tr>
+            }
+        </table>
+
+</div>
+</body>
+</html>

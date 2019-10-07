@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+    int i = 0;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>assign</title>
+</head>
+<body>
+    <div>
+        @for (i = 0; i < Model.count; i++)
+    {
+        <text>@Model.user</text>
+        <br />
+
+    }
+    </div>
+</body>
+</html>
